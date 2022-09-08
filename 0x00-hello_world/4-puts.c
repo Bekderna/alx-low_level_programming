@@ -1,11 +1,16 @@
-
-
-#include <stdio.h>
-
-/*printf*/
+lude <stdio.h>
 
 
 
+/**
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
 
 int main(void)
 

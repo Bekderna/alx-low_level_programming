@@ -19,7 +19,7 @@ int main(void)
 	}
 	else
 	{
-		printf("is zero")
+		printf("is zero");
 	}
 	return (0);
 }

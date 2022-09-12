@@ -18,6 +18,7 @@ int main(void)
 	{
 		putchar((c / 10) + '0');
 		putchar((c % 10) + '0');
+		putchar(' ');
 		putchar((ch / 10) + '0');
 		putchar((ch % 10) + '0');
 		if (c == 99 && ch == 99)

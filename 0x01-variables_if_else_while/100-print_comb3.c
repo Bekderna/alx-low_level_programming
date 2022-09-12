@@ -16,7 +16,8 @@ int main(void)
 	{
 		for (ch = c + 1 ; ch <= 9 ; ch++)
 	{
-		putchar((c * 10) + ch + '0');
+		putchar(c + '0');
+		putchar(ch + '0');
 		if (c == 8)
 		{
 			break;

@@ -11,31 +11,22 @@ int main(void)
 {
 	int c;
 	int ch;
-	int d;
-	int a;
 
-	for (a = 0; a <= 9 ; a++)
+	for (c = 0 ; c <= 99 ; c++)
 	{
-	for (d = 0 ; d <= 9; d++)
-		{
-	for (c = 0 ; c <= 9 ; c++)
-			{
-	for (ch = 0 ; ch <= 9 ; ch++)
-				{
-		putchar(a + '0');
-		putchar(d + '0');
-		putchar(' ');
-		putchar(c + '0');
-		putchar(ch + '0');
-		if (c == 9 && a == 9 && d == 9 && ch == 9)
+		for (ch = c + 1 ; ch <= 99 ; ch++)
+	{
+		putchar((c / 10) + '0');
+		putchar((c % 10) + '0');
+		putchar((ch / 10) + '0');
+		putchar((ch % 10) + '0');
+		if (c == 99 && ch == 99)
 		{
 			break;
 		}
 		putchar(',');
 		putchar(' ');
 	}
-	}
-		}
 	}
 	putchar('\n');
 	return (0);

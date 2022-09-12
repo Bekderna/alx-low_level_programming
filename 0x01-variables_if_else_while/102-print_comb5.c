@@ -21,7 +21,7 @@ int main(void)
 		putchar(' ');
 		putchar((ch / 10) + '0');
 		putchar((ch % 10) + '0');
-		if (c == 99 && ch == 99)
+		if (c == 98 && ch == 99)
 		{
 			break;
 		}

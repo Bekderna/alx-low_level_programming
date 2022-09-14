@@ -1,4 +1,5 @@
 #include <main.h>
+#include <string>
 /**
  *  * main - Entry point
  *   * Description: 'the program's description'

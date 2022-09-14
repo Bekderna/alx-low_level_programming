@@ -1,5 +1,5 @@
-#include <main.h>
-#include <string>
+#include <time.h>
+#include <stdio.h>
 /**
  *  * main - Entry point
  *   * Description: 'the program's description'

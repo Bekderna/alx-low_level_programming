@@ -7,15 +7,17 @@
  */
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	  putchar('t');
-	   putchar('c');
-	    putchar('h');
-	     putchar('a');
-	      putchar('r');
-	      outchar('\n')
+
+		  print_alphabet();
 	return (0);
+}
+	void print_alphabet(void)
+	{
+		for (ch = 'a' ; ch = 'z' ; ch++)
+		{
+			putchar(ch);
+		}
+		putchar ('\n');
+	}
 }
 

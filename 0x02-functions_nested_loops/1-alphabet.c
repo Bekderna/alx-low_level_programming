@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char = ch
+	char ch
 
 		  print_alphabet();
 	return (0);

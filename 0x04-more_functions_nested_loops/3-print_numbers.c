@@ -12,8 +12,8 @@ void print_numbers(void)
 
 	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(c);
+		putchar(c);
 	}
-i_putchar('\n');
+putchar('\n');
 }
 

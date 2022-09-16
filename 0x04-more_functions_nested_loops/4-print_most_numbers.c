@@ -15,7 +15,7 @@ void print_numbers(void)
 		if (c == '2' || c == '4')
 			continue;
 		else
-		_putchar(c);
+			_putchar(c);
 	}
 	_putchar('\n');
 }

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  * ptint_diagnoal - prints 0123456789\n
+ *  * print_diagonal- prints 0123456789\n
  *   *@n: num
  *    * Return: void
  */
@@ -19,5 +19,4 @@ void print_diagonal(int n)
 		_putchar('\\');
 		_putchar('\n');
 	}
-	
 }

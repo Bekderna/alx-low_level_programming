@@ -2,8 +2,9 @@
 
 
 /**
- * tper case
- * return int
+ * _isupper - upper
+ *@c: num
+ * Return: 0 or 1
  */
 
 int _isupper(int c)

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  * print_line - prints 0123456789\n
+ *  * ptint_diagnoal - prints 0123456789\n
  *   *@n: num
  *    * Return: void
  */

@@ -7,11 +7,12 @@
  */
 void print_square(int size)
 {
-	int x;
+	int x, i;
 
 	for (x = 0 ; x < size; x++)
 	{
-		_putchar('#');
+		for (i = 0; i < sixe; i++)
+			_putchar('#');
 	}
 	_putchar('\n');
 }

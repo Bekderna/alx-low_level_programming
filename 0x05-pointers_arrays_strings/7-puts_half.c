@@ -10,7 +10,7 @@ void puts_half(char *str)
 	int i, x;
 
 	x = strlen(str);
-	if (x % 2 = 1)
+	if (x % 2 == 1)
 		x--;
 	for (i = x / 2; i <= (x - 1); i++)
 	{

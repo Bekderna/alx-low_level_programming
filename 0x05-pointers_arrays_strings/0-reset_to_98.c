@@ -9,7 +9,7 @@ void reset_to_98(int *n)
 {
 	int  *x;
 
-	x = $n;
+	x = &n;
 	*x = 98;
 }
 

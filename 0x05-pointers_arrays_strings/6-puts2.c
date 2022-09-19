@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  _puts2 - check the code
+ *  puts2 - check the code
  *   @str : str
  *    * Return: void
  */

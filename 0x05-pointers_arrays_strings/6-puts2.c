@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *  _puts - check the code
+ *  _puts2 - check the code
  *   @str : str
  *    * Return: void
  */
-void _puts(char *str)
+void _puts2(char *str)
 {
 	int i;
 

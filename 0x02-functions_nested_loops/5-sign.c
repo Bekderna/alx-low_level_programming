@@ -12,14 +12,14 @@ int print_sign(int n)
 		putchar('+');
 		return (1);
 	}
-	else if (c > 0)
+	else if (i > 0)
 	{
 		putchar('-');
 		return ("-1");
 	}
 	else
 	{
-		putchar('0');
+		putchar(-1);
 		return (0);
 	}
 }

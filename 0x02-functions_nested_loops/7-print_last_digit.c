@@ -8,6 +8,6 @@
 int print_last_digit(int n)
 {
 	n = n % 10;
-	ptrnitf ("%d", n);
+	printf ("%d", n);
 	return (n);
 }

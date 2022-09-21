@@ -3,6 +3,8 @@
  *  *_strncat - check the code
  *   @src : str
  *   @dest : str
+ *   @n : num
+ *
  *    * Return: void
  */
 char *_strncat(char *dest, char *src, int n)

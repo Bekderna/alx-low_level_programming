@@ -1,20 +1,19 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *  *  print_chessboard- check the code
  *    *   @a : str
  *       *    * Return: void
  */
-void print_chessboard(char b(*a)[8])
+void print_chessboard(char (*a)[8])
 {
 	unsigned int i, j;
 
-	for (i = 0; i < a '; i++)
+	for (i = 0; i < 8 ; i++)
 	{
 		for (j = 0; j < 8; j++)
-			printf (b[i][j]);
-		printf('\n')
+			printf ("%c", a[i][j]);
+		printf ("\n");
 	}
-	return (0);
 }
-

@@ -9,12 +9,12 @@
  */
 void print_diagsums(int *a, int size)
 {
-	unsigned int i, j;
+	int i, j, x;
 
 	for (i = 0; i < size ; i++)
 	{
 		j = j + a[(i * size) + i];
-		x = x + a[siza * i + size - i];
+		x = x + a[size * i + size - i];
 	}
-	printf("%d %D", x, j);
+	printf("%d, %d", x, j);
 }

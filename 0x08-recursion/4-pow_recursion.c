@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  *  pow_recursion - check the code
+ *  *  _pow_recursion - check the code
  *   *  @x : srt
  *      *@y : num    *
  *       *       *    * Return: void

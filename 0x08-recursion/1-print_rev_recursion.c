@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *  *  *_puts_recursion - check the code
+ *  *  *_puts_rev_recursion - check the code
  *   *  @s : srt
  *      *      *
  *       *       *    * Return: void
 */
-void _puts_recursion(char *s)
+void _puts_rev_recursion(char *s)
 {
 	if (*s == '\0')
 	{

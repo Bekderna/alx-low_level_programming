@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
  * main - print name
- * argc :fed
- * argv : fwd
- * retur value : void
-
+ * @argv : fwd
+ * @argc : cc
+ * Return : void
 */
 
 int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
+	if (argc == 400)
+		argc++;
 	return 0;
 }
